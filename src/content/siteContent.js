@@ -1,112 +1,110 @@
 export const siteContent = {
   companyName: 'Peliggy',
-  siteLabel: 'Launch-ready software company site',
-  launchNote:
-    'Version 1 uses clearly marked placeholder business copy where company-specific details are still missing. Replace every TODO card before launching the final brand site.',
+  siteLabel: 'Software, AI, and practical technology',
   hero: {
-    eyebrow: 'Mobile-first launch foundation',
-    title:
-      'TODO: Replace this headline with the clearest client outcome your company delivers.',
+    eyebrow: '',
+    title: 'AI-First Software Development Company',
     subtitle:
-      'Placeholder copy: explain who you help, what you build, and why your approach is the safe choice when the work has to ship.',
-    primaryCta: 'Start the conversation',
-    secondaryCta: 'Review the process',
+      'We build practical software and AI tools that help businesses move faster.',
+    primaryCta: 'Talk to us',
+    secondaryCta: 'See services',
     bullets: [
-      'Lean landing page structure that keeps the CTA obvious.',
-      'Netlify-compatible form flow with inline success and error states.',
-      'Single-page build that is ready for GitHub, Netlify, and a custom domain.',
+      'Build fast',
+      'Use AI well',
+      'Keep it simple',
+    ],
+  },
+  snapshot: {
+    title: 'The kind of outcomes we build for companies.',
+    facts: [
+      {
+        label: 'Onboarding',
+        value:
+          'Built onboarding journeys that reduce drop-off and help more users reach the point of value.',
+      },
+      {
+        label: 'Accessibility',
+        value:
+          'Improved accessibility so products work better for more people and feel stronger in everyday use.',
+      },
+      {
+        label: 'Healthcare',
+        value:
+          'Built healthcare technology for high-stakes environments where reliability and outcomes matter.',
+      },
     ],
   },
   services: {
     eyebrow: 'Services',
-    title: 'Start with the three offers you want prospects to remember.',
+    title: 'What we do',
     intro:
-      'These cards are intentionally placeholder content. Replace them with the exact services, deliverables, and client benefits your company actually sells.',
+      'We help businesses build better technology, move faster, and prepare for what is next.',
     items: [
       {
-        title: 'TODO: Core service one',
+        title: 'Software Development',
         description:
-          'Placeholder: describe the most valuable engineering or consulting offer you want to lead with.',
+          'Web apps, internal tools, and digital products built for real business use.',
       },
       {
-        title: 'TODO: Core service two',
+        title: 'AI Readiness',
         description:
-          'Placeholder: explain the second offer in plain language, including the client problem it solves.',
+          'The systems, workflows, and direction needed to use AI effectively.',
       },
       {
-        title: 'TODO: Core service three',
+        title: 'AI-Powered Solutions',
         description:
-          'Placeholder: define the specialist capability that makes your team worth contacting.',
+          'Useful AI tools and automations that save time and improve operations.',
+      },
+      {
+        title: 'Technical Strategy',
+        description:
+          'Better technical decisions from the start, with less wasted motion.',
       },
     ],
   },
-  proof: {
-    eyebrow: 'Proof',
-    title: 'Add real credibility before the final launch.',
-    intro:
-      'The design and build are ready, but business proof still needs specific content from you. Add named work, measurable outcomes, or testimonials here.',
-    placeholders: [
-      'TODO: Add one concrete project result with a timeframe or measurable gain.',
-      'TODO: Add one relevant client type, market, or product category you know well.',
-      'TODO: Add one trust signal such as founder background, testimonial, or retained client relationship.',
-    ],
-    facts: [
+  value: {
+    eyebrow: 'Why Peliggy',
+    title: 'Strong engineering. Calm execution.',
+    items: [
       {
-        label: 'Stack',
-        value: 'React, Vite, Tailwind, Netlify Forms',
-      },
-      {
-        label: 'Build posture',
-        value: 'Single-page, low-dependency, deployment-ready',
-      },
-      {
-        label: 'Launch posture',
-        value: 'Prepared for Netlify import and custom domain hookup',
-      },
-    ],
-  },
-  process: {
-    eyebrow: 'Process',
-    title: 'Version 1 should stay practical from brief to launch.',
-    steps: [
-      {
-        number: '01',
-        title: 'Clarify the offer',
+        title: 'Full-stack delivery',
         description:
-          'Define the audience, the core promise, and the one action the homepage should drive.',
+          'Across real products and platforms, we build software end to end.',
+        stack: [
+          { label: 'AI', emphasis: 'high' },
+          { label: 'React', emphasis: 'high' },
+          { label: 'TypeScript', emphasis: 'high' },
+          { label: 'Node', emphasis: 'high' },
+          { label: 'Python', emphasis: 'mid' },
+          { label: 'Java', emphasis: 'mid' },
+          { label: 'Docker', emphasis: 'mid' },
+          { label: 'Kubernetes', emphasis: 'mid' },
+        ],
       },
       {
-        number: '02',
-        title: 'Build the lean version',
+        title: 'We handle complex products',
         description:
-          'Ship the sections that matter most first: hero, services, proof, about, and contact.',
+          'We work comfortably in products with operational complexity, sensitive workflows, and real delivery pressure.',
       },
       {
-        number: '03',
-        title: 'Launch and refine',
+        title: 'We use AI with discipline',
         description:
-          'Deploy, verify the form, connect the domain, and improve the copy after the first release is live.',
+          'We apply AI where it improves speed, quality, or decision-making, not where it just adds noise.',
       },
     ],
-  },
-  about: {
-    eyebrow: 'About',
-    title: 'Explain who leads the work and why clients should trust the process.',
-    body:
-      'TODO: Replace this paragraph with the founder or team story, the kinds of software problems you solve, and the standards you bring to delivery.',
-    points: [
-      'Placeholder: add your strongest technical or industry background.',
-      'Placeholder: add the kind of engagements you want more of.',
-      'Placeholder: add how you communicate, manage scope, and reduce delivery risk.',
-    ],
+    closing:
+      'Peliggy combines product thinking, engineering depth, and practical AI delivery to build software that solves real business problems.',
   },
   contact: {
     eyebrow: 'Contact',
-    title: 'Make the next step easy.',
+    title: 'Let’s build something useful.',
     intro:
-      'This form is wired for Netlify Forms. Once the repo is deployed on Netlify, submissions should appear in the dashboard and use the inline success state below.',
-    email: 'hello@example.com',
+      'Need a new product, a smarter internal tool, or help getting AI-ready? Tell us what you are trying to do.',
+    email: 'peliggy@gmail.com',
     emailNote:
-      'TODO: Replace this placeholder email fallback before using the site in production.',
+      'Use the form as the main path to reduce email exposure and spam.',
   },
+  footerBlurb:
+    'Software, AI, and practical technology for businesses that need to move fast.',
+  footerTagline: 'Software made simple.',
 }

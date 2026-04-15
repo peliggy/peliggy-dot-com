@@ -66,7 +66,6 @@ function ContactForm({ fallbackEmail }) {
             Send the project brief
           </h3>
         </div>
-        <span className="label-chip">Netlify-ready</span>
       </div>
 
       <form
