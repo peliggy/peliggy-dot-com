@@ -24,6 +24,7 @@ npm run lint
 - Netlify publish directory: `dist`
 - Static form detection markup lives in [index.html](/Users/sahracton/conductor/workspaces/peliggy-dot-com/lyon/index.html)
 - Frontend form UX lives in [src/components/ContactForm.jsx](/Users/sahracton/conductor/workspaces/peliggy-dot-com/lyon/src/components/ContactForm.jsx)
+- Veyora waitlist page lives at `/veyora-waiting-list` and uses Netlify Forms via static markup in `public/veyora-waiting-list/index.html`.
 
 ## Content Notes
 

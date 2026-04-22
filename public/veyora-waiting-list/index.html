@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Join the Veyora waitlist for care-home-first resident monitoring, alerting, and care-team workflows.">
+  <title>Veyora | Care-Home Monitoring Waitlist</title>
+  <link rel="preload" href="/assets/veyora-resident.jpeg" as="image">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="/veyora-waiting-list/" aria-label="Veyora waiting list">
+      <span class="brand-mark" aria-hidden="true"></span>
+      <span>Veyora</span>
+    </a>
+    <nav class="header-nav" aria-label="Primary">
+      <a href="#platform">Platform</a>
+      <a href="#proof">Fit</a>
+      <a class="nav-cta" href="#waitlist">Join waitlist</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-overlay"></div>
+      <div class="hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow">Care-home-first monitoring</p>
+          <h1 id="hero-title">Veyora</h1>
+          <p class="hero-lede">
+            A resident safety platform bringing clinical readings, room signals,
+            alert triage, and care-team context into one calm operating view.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#waitlist">
+              Request early access
+              <span aria-hidden="true">→</span>
+            </a>
+            <a class="button button-secondary" href="#platform">See the focus</a>
+          </div>
+        </div>
+
+        <aside class="waitlist-panel" id="waitlist" aria-labelledby="waitlist-title">
+          <div class="panel-kicker">Private launch list</div>
+          <h2 id="waitlist-title">Join the waitlist</h2>
+          <form
+            class="waitlist-form"
+            name="veyora-waiting-list"
+            action="/veyora-waiting-list/success/"
+            method="post"
+            data-netlify="true"
+            netlify-honeypot="companyWebsite"
+            data-netlify-endpoint="/veyora-waiting-list/"
+            data-waitlist-form
+          >
+            <input type="hidden" name="form-name" value="veyora-waiting-list">
+            <input class="honeypot" type="text" name="companyWebsite" tabindex="-1" autocomplete="off" aria-hidden="true">
+
+            <div class="form-grid">
+              <label>
+                <span>Name</span>
+                <input type="text" name="fullName" autocomplete="name" required>
+                <small data-error-for="fullName"></small>
+              </label>
+
+              <label>
+                <span>Work email</span>
+                <input type="email" name="email" autocomplete="email" required>
+                <small data-error-for="email"></small>
+              </label>
+            </div>
+
+            <div class="form-grid">
+              <label>
+                <span>Organisation</span>
+                <input type="text" name="organization" autocomplete="organization" required>
+                <small data-error-for="organization"></small>
+              </label>
+
+              <label>
+                <span>Role</span>
+                <select name="role" required>
+                  <option value="">Select role</option>
+                  <option>Care-home owner</option>
+                  <option>Home manager</option>
+                  <option>Clinical lead</option>
+                  <option>Operations director</option>
+                  <option>Digital transformation lead</option>
+                  <option>Commissioner</option>
+                  <option>Other</option>
+                </select>
+                <small data-error-for="role"></small>
+              </label>
+            </div>
+
+            <div class="form-grid">
+              <label>
+                <span>Setting</span>
+                <select name="careSetting">
+                  <option value="">Select</option>
+                  <option>Residential care</option>
+                  <option>Nursing home</option>
+                  <option>Dementia care</option>
+                  <option>Supported living</option>
+                  <option>Multi-site group</option>
+                </select>
+              </label>
+
+              <label>
+                <span>Residents</span>
+                <select name="residents">
+                  <option value="">Select</option>
+                  <option>1-25</option>
+                  <option>26-50</option>
+                  <option>51-150</option>
+                  <option>151-500</option>
+                  <option>500+</option>
+                </select>
+              </label>
+            </div>
+
+            <label>
+              <span>What should Veyora help with first?</span>
+              <textarea name="interest" rows="2" placeholder="Falls risk, overnight checks, alert triage, family reassurance, device rollout..."></textarea>
+            </label>
+
+            <label class="consent-row">
+              <input type="checkbox" name="consent" required>
+              <span>Veyora can contact me about early access.</span>
+            </label>
+            <small class="consent-error" data-error-for="consent"></small>
+
+            <button class="button button-submit" type="submit">
+              Join waitlist
+              <span aria-hidden="true">→</span>
+            </button>
+            <p class="form-status" data-form-status role="status" aria-live="polite"></p>
+          </form>
+        </aside>
+      </div>
+    </section>
+
+    <section class="signal-band" aria-label="Veyora focus">
+      <div class="signal-track">
+        <span>Clinical readings</span>
+        <span>Room signals</span>
+        <span>Alert triage</span>
+        <span>Shift handover</span>
+        <span>Audit context</span>
+      </div>
+    </section>
+
+    <section class="section product-section" id="platform">
+      <div class="section-heading">
+        <p class="eyebrow">Built around real care operations</p>
+        <h2>Earlier risk signals for busy care teams.</h2>
+        <p>
+          Veyora is shaped for organised care settings where residents, rooms,
+          devices, alerts, escalations, and handovers all need one shared picture.
+        </p>
+      </div>
+
+      <div class="product-grid">
+        <article class="feature-card">
+          <div class="feature-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" focusable="false">
+              <path d="M4 13h4l2-7 4 12 2-5h4" />
+            </svg>
+          </div>
+          <h3>Clinical and wellbeing readings</h3>
+          <p>Blood pressure, oxygen saturation, pulse, temperature, weight, and trend context.</p>
+        </article>
+
+        <article class="feature-card">
+          <div class="feature-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" focusable="false">
+              <path d="M4 10V6a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v4M5 20h14M7 20v-6h10v6" />
+            </svg>
+          </div>
+          <h3>Room and device context</h3>
+          <p>Room temperature, occupancy, movement, inactivity, battery, connectivity, and placement.</p>
+        </article>
+
+        <article class="feature-card">
+          <div class="feature-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" focusable="false">
+              <path d="M12 3l8 4v5c0 5-3.5 8-8 9-4.5-1-8-4-8-9V7l8-4Z" />
+              <path d="M9 12l2 2 4-5" />
+            </svg>
+          </div>
+          <h3>Operational alert handling</h3>
+          <p>Prioritised risk queues, acknowledgement, resolution, notes, and escalation history.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="dashboard-section" aria-label="Monitoring preview">
+      <div class="dashboard-shell">
+        <div class="dashboard-header">
+          <div>
+            <span class="dashboard-label">Live resident overview</span>
+            <h2>Morning monitoring queue</h2>
+          </div>
+          <div class="dashboard-time">08:42</div>
+        </div>
+
+        <div class="dashboard-layout">
+          <div class="resident-list">
+            <div class="resident-row high">
+              <span class="status-dot"></span>
+              <div>
+                <strong>Resident 24</strong>
+                <p>Inactivity and low room temperature</p>
+              </div>
+              <b>High</b>
+            </div>
+            <div class="resident-row medium">
+              <span class="status-dot"></span>
+              <div>
+                <strong>Resident 08</strong>
+                <p>Blood pressure trend above usual range</p>
+              </div>
+              <b>Review</b>
+            </div>
+            <div class="resident-row stable">
+              <span class="status-dot"></span>
+              <div>
+                <strong>Resident 31</strong>
+                <p>Vitals stable, sensor online</p>
+              </div>
+              <b>Stable</b>
+            </div>
+          </div>
+
+          <div class="insight-panel">
+            <h3>Risk context</h3>
+            <div class="metric-line">
+              <span>Clinical</span>
+              <meter min="0" max="100" value="66">66%</meter>
+            </div>
+            <div class="metric-line">
+              <span>Environmental</span>
+              <meter min="0" max="100" value="82">82%</meter>
+            </div>
+            <div class="metric-line">
+              <span>Follow-up</span>
+              <meter min="0" max="100" value="44">44%</meter>
+            </div>
+            <p>Resident context, device placement, and action history stay together.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section fit-section" id="proof">
+      <div class="section-heading">
+        <p class="eyebrow">Best fit</p>
+        <h2>For care providers ready to move from reactive checks to proactive visibility.</h2>
+      </div>
+      <div class="fit-grid">
+        <div>
+          <h3>Residential and nursing care</h3>
+          <p>Support staff with clearer resident trends, room context, and follow-up ownership.</p>
+        </div>
+        <div>
+          <h3>Dementia and supported living</h3>
+          <p>Surface changes in routine, inactivity, and environmental conditions earlier.</p>
+        </div>
+        <div>
+          <h3>Multi-site operators</h3>
+          <p>Give managers and monitoring teams a consistent view across sites, units, and shifts.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="brand brand-dark" href="/veyora-waiting-list/" aria-label="Veyora waiting list">
+      <span class="brand-mark" aria-hidden="true"></span>
+      <span>Veyora</span>
+    </a>
+    <p>Care-home monitoring for safer, more observable resident care.</p>
+  </footer>
+
+  <script src="/app.js" defer></script>
+</body>
+</html>
