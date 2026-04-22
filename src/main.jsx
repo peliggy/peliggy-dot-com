@@ -7,7 +7,7 @@ const motionMediaQuery = window.matchMedia('(prefers-reduced-motion: no-preferen
 const motionOverride = new URLSearchParams(window.location.search).get('motion')
 
 function updateMotionPreference() {
-  const shouldAnimate = motionOverride !== 'off'
+  const shouldAnimate = motionOverride === 'on' || (motionOverride !== 'off' && motionMediaQuery.matches)
 
   document.documentElement.dataset.motion = shouldAnimate ? 'on' : 'off'
 }

@@ -4,3 +4,8 @@ publish = "dist"
 
 [build.environment]
 NODE_VERSION = "20"
+
+[[redirects]]
+from = "/veyora-waiting-list"
+to = "/veyora-waiting-list/"
+status = 301
